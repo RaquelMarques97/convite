@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="envelope.css">
+  </head>
+  <body>
+    <audio src="Vivaldi's Four Seasons - Spring (Part 1).mp3" style="display:none;" id="myAudio" controls loop>
+    </audio>
+    <audio src="blackbird-singing.mp3" style="display:none;" id="birds" controls autoplay loop>
+    </audio>
+    <div style="z-index:-10; opacity:0.7;">
+      <img  style="width:100vw;"src="85426.gif"/>     
+    </div>
+    
+    <div class="envelope new">
+      <div class="front">  
+        <div class="mailme">         
+          <p>Para abrir a sua mensagem</p>
+          <p>clique aqui</p>
+        </div>
+      </div>
+      <div class="back">
+        <div class="letter">
+          <h1>Para ver o vídeo clique no play:</h1>
+          <video width="730" height="440" controls id="myVideo">
+            <source src="SaveTheDate.mp4" type="video/mp4">
+            <source src="SaveTheDate.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>          
+         
+        </div>
+        <div class="flap left-flap"></div>
+        <div class="flap right-flap"></div>
+        <div class="flap bottom-flap"></div>
+        <div class="flap top-flap"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+    <script src="envelope.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Allan:700,400);
+
+body{
+  overflow: hidden;
+  margin:0;
+  background: url(85426.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-origin: content-box;
+  
+}
+
+
+.image2{
+  display:none;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .image1 {
+    display:none;
+ }
+
+ .image2 {
+   display:block;
+ }
+
+ .butterfly {
+   zoom:50%;
+   margin-top:200px;
+ }
+
+ body{
+   overflow:hidden;
+  background-image: url(tenor-1.gif);
+  background-position:center;
+
+}
+ 
+
+}
