@@ -1,6 +1,12 @@
+
+@import url(https://fonts.googleapis.com/css?family=Allan:700,400);
 body {
   overflow:hidden;
   margin:0;
+  font-family: Allan;
+  color:#ffffff;
+  text-shadow: 5px 5px 5px#000;
+  
 }
 
 .image {
@@ -14,10 +20,11 @@ h1{
   font-size:100px;margin-top:-40px;
 }
 
+footer{
+ margin-top:30vh;
+}
+
 @media only screen and (max-width: 760px) {
-  body {
-    overflow-y:scroll;
-  }
 
   .image {
     z-index:-10; position: absolute;margin-top:0px;opacity:0.9;
