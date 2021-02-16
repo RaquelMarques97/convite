@@ -1,0 +1,33 @@
+body {
+  overflow:hidden;
+  margin:0;
+}
+
+.image {
+  z-index:-10; position: absolute;margin-top:-800px;opacity:0.9;
+}
+
+.dancer{
+  width:100vw;height:200vh;
+}
+h1{
+  font-size:100px;margin-top:-40px;
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    overflow-y:scroll;
+  }
+
+  .image {
+    z-index:-10; position: absolute;margin-top:0px;opacity:0.9;
+  }
+
+  .dancer{
+    width:100vw;height:100vh;
+  }
+
+  h1{
+    font-size:30px;margin-top:0px;
+  }
+}

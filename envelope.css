@@ -1,4 +1,14 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Allan:700,400);
+
+.image1 {
+  display:block;
+}
+
+.image2 {
+  display:none;
+}
 @keyframes new {
   0% {
     left: 0%;
@@ -342,3 +352,47 @@ body {
 }
 
 
+@media only screen and (max-width: 760px) {
+
+  .image1 {
+    display:none;
+  }
+
+  .image2 {
+    display:block;
+  }
+  .envelope {
+    top: 70%;
+    width: 385.90873px;
+    height: 308.90873px;
+    margin-left:-200px!important;
+    
+    
+  }
+
+  .envelope .back .top-flap:before, .envelope .back .bottom-flap:before {
+    width: 385.90873px;
+    height: 308.90873px;
+  
+  }
+
+
+  .envelope .back .letter {
+
+    margin-left:10px;
+    width: 360px;
+    height: 300.66667px;
+    
+   
+  }
+h1 {
+  font-size:20px;
+}
+  video {
+    width: 350px;
+    height: 240px;
+    margin-left:-28px;
+}
+  
+
+}
