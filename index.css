@@ -97,4 +97,8 @@ right:-180px;
     text-shadow: 5px 5px 5px #000;
   }
 
+  h1{
+   zoom:60%;
+  }
+
 }
