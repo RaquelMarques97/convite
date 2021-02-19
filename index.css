@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Allan:700,400);
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
@@ -10,6 +12,7 @@
 
 /* Add some content at the bottom of the video/page */
 .content {
+  font-family: Allan;
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -20,13 +23,18 @@
 
 /* Style the button used to pause/play the video */
 #myBtn {
-  width: 200px;
+  width: 100vw;
   font-size: 18px;
   padding: 10px;
   border: none;
   background: #000;
   color: #000;
   cursor: pointer;
+ 
+}
+
+h1{
+  margin-left:100px;
 }
 
 #myBtn:hover {
@@ -73,7 +81,7 @@
 
 
   #myVideo {
-right:-180px;
+right:-250px;
     position: fixed;  
 
     min-width: 100%;
@@ -81,14 +89,15 @@ right:-180px;
   }
   
   .butterfly{
-    margin-top:80px;
-    height:90%;
+    margin-top:50px;
+    zoom:60%
   }
   
 
 
   h1{
-   zoom:60%;
+   margin-left:20px;
+   margin-top:0;
   }
 
 }

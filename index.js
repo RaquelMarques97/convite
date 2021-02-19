@@ -4,8 +4,9 @@ var apanhe = document.getElementById("apanhe");
 
 document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 function myHandler(e) {
-  mens.innerHTML = "Esta borboleta traz uma mensagem...";
-  apanhe.innerHTML = "Apanhe-a!";
+  mens.innerHTML = "Esta borboleta traz uma mensagem...Apanhe-a!";
+  apanhe.innerHTML = "";
+  media.removeAttribute('controls');
 }
 
 
