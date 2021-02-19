@@ -9,6 +9,10 @@
 .image2 {
   display:none;
 }
+
+#myVideo{
+  background-color:black;
+}
 @keyframes new {
   0% {
     left: 0%;
