@@ -1,0 +1,76 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color:black;
+}
+
+
+
+.butterfly {
+  
+
+  -webkit-animation: slideIn 50s forwards;
+  -moz-animation: slideIn 50s forwards;
+  animation: slideIn 50s forwards;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mensagem{
+  display:none;
+  color:white;
+  font-size:60px;
+  text-shadow: 5px 5px 5px #000;
+}
+
+
+@media only screen and (max-width: 760px) {
+
+
+  #myVideo {
+right:-180px;
+    position: fixed;  
+
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .butterfly{
+    margin-top:100px;
+    height:80%;
+  }
+  
+  .mensagem{
+    display:none;
+    color:white;
+    font-size:30px;
+    text-shadow: 5px 5px 5px #000;
+  }
+
+}
