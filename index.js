@@ -1,8 +1,11 @@
 
+var mens = document.getElementById("mensagem");
+var apanhe = document.getElementById("apanhe");
+
 document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 function myHandler(e) {
-$(".mensagem").show();
-$(".ciclos").hide();
+  mens.innerHTML = "Esta borboleta traz uma mensagem...";
+  apanhe.innerHTML = "Apanhe-a!";
 }
 
 

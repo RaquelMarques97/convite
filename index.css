@@ -15,7 +15,7 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Style the button used to pause/play the video */
@@ -25,7 +25,7 @@
   padding: 10px;
   border: none;
   background: #000;
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 
@@ -66,12 +66,7 @@
   }
 }
 
-.mensagem{
-  display:none;
-  color:white;
-  font-size:60px;
-  text-shadow: 5px 5px 5px #000;
-}
+
 
 
 @media only screen and (max-width: 760px) {
@@ -90,12 +85,7 @@ right:-180px;
     height:90%;
   }
   
-  .mensagem{
-    display:none;
-    color:white;
-    font-size:30px;
-    text-shadow: 5px 5px 5px #000;
-  }
+
 
   h1{
    zoom:60%;
