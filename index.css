@@ -89,7 +89,7 @@ right:-250px;
   }
   
   .butterfly{
-    margin-top:50px;
+    margin-top:-50px;
     zoom:60%
   }
   
@@ -99,5 +99,7 @@ right:-250px;
    margin-left:20px;
    margin-top:0;
   }
+
+
 
 }
