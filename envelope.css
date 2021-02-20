@@ -13,6 +13,8 @@
 #myVideo{
   background-color:black;
 }
+
+
 @keyframes new {
   0% {
     left: 0%;
@@ -20,7 +22,7 @@
   }
   100% {
     left: 50%;
-    margin-left: -375px;
+    margin-left: -20%;
   }
 }
 @keyframes open {
@@ -266,7 +268,7 @@ body {
   left: 10px;
   width: 790px;
   height: 546.66667px;
-  background-color: #FFF;
+  background-color: rgb(219, 170, 201);;
   border-radius: 5px;
   padding: 0 30px;
   box-sizing: border-box;
@@ -382,20 +384,19 @@ body {
 
 
   .envelope .back .letter {
-
     margin-left:10px;
     width: 360px;
-    height: 300.66667px;
-    
-   
+    height: 300.66667px; 
   }
+
 h1 {
   font-size:20px;
 }
-  video {
+
+video {
     width: 350px;
     height: 240px;
-    margin-left:-28px;
+    margin-left:-25px;
 }
   
 
