@@ -7,7 +7,7 @@ document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 function myHandler(e) {
   mens.innerHTML = "";
   ciclos.innerHTML = "";
-  apanhe.innerHTML = "Esta borboleta traz uma mensagem...Apanhe-a!";
+  apanhe.innerHTML = "Esta borboleta traz uma mensagem... Apanhe-a!";
   media.removeAttribute('controls');
 }
 
