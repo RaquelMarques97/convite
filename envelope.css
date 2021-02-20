@@ -344,7 +344,7 @@ body {
   animation: letter-out 1s 2s forwards;
 }
 .envelope.send {
-  animation: send 4s forwards;
+  animation: send 1s forwards;
 }
 .envelope.send .top-flap {
   transform: rotateX(-180deg);
