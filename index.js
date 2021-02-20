@@ -1,11 +1,13 @@
 
 var mens = document.getElementById("mensagem");
+var ciclos= document.getElementById("ciclos");
 var apanhe = document.getElementById("apanhe");
 
 document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 function myHandler(e) {
-  mens.innerHTML = "Esta borboleta traz uma mensagem...Apanhe-a!";
-  apanhe.innerHTML = "";
+  mens.innerHTML = "";
+  ciclos.innerHTML = "";
+  apanhe.innerHTML = "Esta borboleta traz uma mensagem...Apanhe-a!";
   media.removeAttribute('controls');
 }
 
@@ -20,9 +22,9 @@ var btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
-    btn.innerHTML = "Pausa";
+    btn.innerHTML = "Pausar viagem";
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = "Iniciar viagem";
   }
 }

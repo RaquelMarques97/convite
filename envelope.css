@@ -332,7 +332,7 @@ body {
   height: 117.66667px;
 }
 .envelope.new {
-  animation: new 1s forwards;
+  animation: new 4s forwards;
 }
 .envelope.open {
   animation: open 3s forwards;
