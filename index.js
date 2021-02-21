@@ -1,7 +1,3 @@
-setTimeout(function(){
-$("#crisalida").hide();
-$("#myBtn").show();
-}, 11000);
 
 
 var mens = document.getElementById("mensagem");
