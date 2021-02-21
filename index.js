@@ -3,11 +3,13 @@ var mens = document.getElementById("mensagem");
 var ciclos= document.getElementById("ciclos");
 var apanhe = document.getElementById("apanhe");
 
+
 document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 function myHandler(e) {
   mens.innerHTML = "";
   ciclos.innerHTML = "";
   apanhe.innerHTML = "Esta borboleta traz uma mensagem... Apanhe-a!";
+  $("#myBtn").hide();
   media.removeAttribute('controls');
 }
 
