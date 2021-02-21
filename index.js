@@ -1,3 +1,8 @@
+setTimeout(function(){
+$("#crisalida").hide();
+$("#myBtn").show();
+}, 11000);
+
 
 var mens = document.getElementById("mensagem");
 var ciclos= document.getElementById("ciclos");
@@ -12,6 +17,7 @@ function myHandler(e) {
   $("#myBtn").hide();
   media.removeAttribute('controls');
 }
+
 
 
 // Get the video

@@ -31,6 +31,7 @@
   background: rgb(65, 63, 63);
   color: #fff;
   cursor: pointer;
+  display:none;
  
 }
 
@@ -43,16 +44,21 @@ h1{
   color: white;
 }
 
+#crisalida {
+  margin-left:40%;
+}
+
+
 .butterfly {
   
 
-  -webkit-animation: slideIn 60s forwards;
-  -moz-animation: slideIn 60s forwards;
-  animation: slideIn 60s forwards;
+  -webkit-animation: slideIn 71s forwards;
+  -moz-animation: slideIn 71s forwards;
+  animation: slideIn 71s forwards;
 }
 @-webkit-keyframes slideIn {
   0% {
-    transform: translateX(-900px);
+    transform: translateX(-1000px);
   }
   100% {
     transform: translateX(0);
@@ -60,7 +66,7 @@ h1{
 }
 @-moz-keyframes slideIn {
   0% {
-    transform: translateX(-900px);
+    transform: translateX(-1000px);
   }
   100% {
     transform: translateX(0);
@@ -68,7 +74,7 @@ h1{
 }
 @keyframes slideIn {
   0% {
-    transform: translateX(-900px);
+    transform: translateX(-1000px);
   }
   100% {
     transform: translateX(0);
@@ -82,7 +88,7 @@ h1{
 
 
   #myVideo {
-right:-250px;
+    right:-250px;
     position: fixed;  
 
     min-width: 100%;
@@ -101,6 +107,10 @@ right:-250px;
    margin-top:0;
   }
 
-
+#crisalida{
+  width:100vw;
+  margin-left:-8px;
+  
+}
 
 }
