@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Allan:700,400);
+
+body{
+  overflow:hidden;
+}
 #quinta{
   height:20vh;position:absolute; margin-top:70vh;margin-left:70vw;
 }
