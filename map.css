@@ -1,0 +1,38 @@
+
+#quinta{
+  height:20vh;position:absolute; margin-top:70vh;margin-left:70vw;
+
+}
+
+#lapa{
+  height:20vh;position:absolute; margin-top:85vh;margin-left:75vw;
+}
+
+#canas{
+  height:20vh;position:absolute; margin-top:10vh;margin-left:40vw;
+}
+
+#horse{
+  height:30vh;position:absolute; margin-top:55vh;margin-left:70vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+#horse{
+  height:30vh;position:absolute; margin-top:55vh;margin-left:45vw;
+}
+
+
+#quinta{
+  height:15vh;position:absolute; margin-top:75vh;margin-left:85vw;
+
+}
+#canas{
+  height:15vh;position:absolute; margin-top:20vh;margin-left:30vw;
+}
+
+#lapa{
+  height:15vh;position:absolute; margin-top:85vh;margin-left:70vw;
+}
+
+}
