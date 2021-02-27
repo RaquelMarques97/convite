@@ -19,6 +19,10 @@
   height:30vh;position:absolute; margin-top:55vh;margin-left:70vw;
 }
 
+#pais{
+  margin-left:70vw;margin-top:30vh;color:#fff; font-family: Allan;position:absolute;text-align:center;
+}
+
 
 @media only screen and (max-width: 600px) {
 #horse{
@@ -39,6 +43,10 @@
 
 #lapa{
   height:15vh;position:absolute; margin-top:85vh;margin-left:70vw;
+}
+
+#pais{
+  margin-left:80vw;margin-top:23vh;color:#fff; font-family: Allan;position:absolute;text-align:center;
 }
 
 }
