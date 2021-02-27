@@ -72,10 +72,17 @@
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
     if(numCorrect===3){
-      alert('fantastico');
-    }
-  }
+      alert(`fantastico! Acertou ${numCorrect} em 3`);
+    } else if(numCorrect===2){
+      alert(`Não está mau! Acertou ${numCorrect} em 3`);
 
+    }else if(numCorrect===1){
+      alert(`Podia ser pior! Acertou ${numCorrect} em 3`);
+
+    }else if(numCorrect===0){
+      alert(`Não diga aos noivos, mas errou todas!`);
+  }
+  }
   function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
