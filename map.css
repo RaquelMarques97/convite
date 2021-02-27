@@ -1,7 +1,10 @@
-
+@import url(https://fonts.googleapis.com/css?family=Allan:700,400);
 #quinta{
   height:20vh;position:absolute; margin-top:70vh;margin-left:70vw;
+}
 
+#explore{
+  font-size:50px;
 }
 
 #lapa{
@@ -22,6 +25,9 @@
   height:30vh;position:absolute; margin-top:55vh;margin-left:45vw;
 }
 
+#explore{
+  font-size:30px;
+}
 
 #quinta{
   height:15vh;position:absolute; margin-top:75vh;margin-left:85vw;
