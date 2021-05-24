@@ -41,13 +41,19 @@
     Lapa do Lobo</p>
   <!-- <a style="text-decoration: none;color:#FFC0CB;position:absolute; z-index:10;" target=_blank; href="https://www.casamentos.pt/web/raquel-and-pedro">WEBSITE: https://www.casamentos.pt/web/raquel-and-pedro</a> -->
 
-
-  <div class="animation mapa"><a style="text-decoration: none;color:#FFC0CB;" href="map.html">Ver mapa</a></div>
+  <a class="adiv" href="map.html" target="_blank"></a>
+  <div class="animation mapa" style="text-decoration: none;color:#FFC0CB;">Ver mapa</div>
   <style>
+    .adiv {
+      position: absolute;
+      z-index: 10;
+
+      height: 200px;
+      width: 200px;
+    }
+
     .animation {
       width: 200px;
-
-
       position: absolute;
       animation-name: example;
       animation-duration: 10s;
@@ -61,7 +67,7 @@
       }
 
       25% {
-      
+
         transition: all .2s ease-in-out;
         transform: scale(1.5);
 
