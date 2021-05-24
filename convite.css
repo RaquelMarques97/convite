@@ -1,41 +1,45 @@
 
 @import url(https://fonts.googleapis.com/css?family=Allan:700,400);
+
+html{
+  width:100%;
+}
 body {
-  overflow:hidden;
-  margin:0;
+margin-top:0;
+  padding:10px;
   font-family: Allan;
   color:#ffffff;
   text-shadow: 5px 5px 5px#000;
-  zoom:130%;
+ overflow: hidden;
+  background-image: url('original.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #c7b193;
+  font-size:40px;
   
 }
 
-.image {
-  z-index:-10; position: absolute;margin-top:-800px;opacity:0.9;
+.petalas{
+width:100vw;
+  
 }
 
-.dancer{
-  width:100vw;height:200vh;
-}
-h1{
-  font-size:100px;margin-top:-40px;
+.pedroeraquel{
+  font-size:100px;
 }
 
-footer{
- margin-top:10vh;
-}
 
 @media only screen and (max-width: 760px) {
 
-  .image {
-    z-index:-10; position: absolute;margin-top:0px;opacity:0.9;
-  }
 
-  .dancer{
-    width:100vw;height:100vh;
-  }
+body{
+  font-size:25px;
+}
 
-  h1{
-    font-size:30px;margin-top:0px;
-  }
+
+.pedroeraquel{
+  font-size:50px;
+}
+
 }
