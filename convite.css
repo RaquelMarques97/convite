@@ -21,21 +21,23 @@ body {
 .pedroeraquel{
  
   font-size:100px;
+  margin-bottom:0!important;
 }
 
 .gostar{
   padding-left:20px;
-  font-size:60px;
+  font-size:40px;
+  margin-bottom:0!important;
 }
 
 .text{
   padding-left:20px;
-  font-size:50px;
+  font-size:40px;
 }
 
 .recepcao{
   padding-left:20px;
-  font-size:50px;
+  font-size:30px;
 }
 
 .mapa{
@@ -103,6 +105,7 @@ footer{
 
   .gostar{
     font-size:25px;
+    margin-bottom:50px;
   }
 
   .text{
@@ -125,6 +128,7 @@ footer{
 
   .pedroeraquel{
     font-size:50px;
+    margin-bottom:50px;
   }
 
   footer{
